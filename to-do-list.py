@@ -26,7 +26,7 @@ class TodoList:
       print(f"{item.title} - {item.description} ({item.due_date}) - {'Done' if item.is_done else 'Not done'}")
 
 def main():
-  todo_list = TodoList()
+  todo_list = todo_list
 
   while True:
     command = input("What would you like to do? (add, remove, mark_as_done, print, quit): ")
